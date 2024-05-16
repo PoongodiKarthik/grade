@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var maths=parseInt(prompt("Enter your maths mark"));
+        var sci=parseInt(prompt("Enter your science mark"));
+        var soc=parseInt(prompt("Enter your social mark"));
+        
+
+        if((maths>=90)&&(sci>=90)&&(soc>=90))
+        {
+            document.write("<h1 style='color:orange'>GRADE A++ ---Excellent</h1>")
+        }
+        else if(((maths>=80)&&(maths<90))&&((sci>=80)&&(sci<90))&&((soc>=80)&&(soc<90)))
+        {
+            document.write("<h1 style='color:green'>GRADE A ---Very Good</h1>")
+        }
+        else if(((maths>=70)&&(maths<80))&&((sci>=70)&&(sci<80))&&((soc>=70)&&(soc<80)))
+        {
+            document.write("<h1 style='color:violet'>GRADE B++ --- Good</h1>")
+        }
+        else if(((maths>=60)&&(maths<70))&&((sci>=60)&&(sci<70))&&((soc>=60)&&(soc<70)))
+        {
+            document.write("<h1 style='color:aqua'>GRADE B--- AVERAGE</h1>")
+        }
+        else if(((maths>=50)&&(maths<60))&&((sci>=50)&&(sci<60))&&((soc>=50)&&(soc<60)))
+        {
+            document.write("<h1 style='color:blue'>GRADE C --- POOR</h1>")
+        }
+        else{
+            document.write("<h1 style='color:red'>NO GRADE--- FAIL</h1>")
+
+        }
+
+
+
+    </script>
+</body>
+</html>
